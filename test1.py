@@ -1,4 +1,4 @@
-print("West Chester")
+    print("West Chester")
 print("CSC141")
 print(' WCUPA ')
 
