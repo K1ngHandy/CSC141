@@ -43,9 +43,26 @@
 # print('Remainder:', a % b)  # remainder of division
 
 # Extracting digits from a number
-num = int(input("Enter number: "))
-d1 = num // 10
-d2 = num % 10
+# num = int(input("Enter 2-digit number: "))
+# d1 = num // 10
+# d2 = num % 10
 
-print(d1) # first digit
-print(d2) # second digit
+# print(d1, '**', d2)
+
+# Extracting 3 digits from a number
+num = int(input("Enter 3-digit number: "))
+d3 = num // 100
+d4 = (num // 10) % 10
+d5 = (num % 100) % 10
+
+print(d3, '**', d4, '**', d5)
+
+# Reverse a 3-digit number
+print('Reversed: ', d5, d4, d3, sep='')
+
+## Display date
+month = int(input("What is the current month? "))
+day = int(input("What is the current day? "))
+year = int(input("What is the current year? "))
+
+print(month, day, year, sep='/')
