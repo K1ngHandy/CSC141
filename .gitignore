@@ -173,5 +173,8 @@ cython_debug/
 # PDF files
 *.pdf
 
+# DS_Store
+.DS_Store
+
 # PyPI configuration file
 .pypirc
