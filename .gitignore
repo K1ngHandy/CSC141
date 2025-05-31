@@ -170,5 +170,8 @@ cython_debug/
 # Ruff stuff:
 .ruff_cache/
 
+# PDF files
+*.pdf
+
 # PyPI configuration file
 .pypirc
