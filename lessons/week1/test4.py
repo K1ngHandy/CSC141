@@ -17,3 +17,27 @@ print("Circle Area is:", AreaCircle)
 ## Get name and display 4 times
 name=input("What is your name? ")
 print(name*3)
+
+## Concatenation of strings and tuples
+temp1 = "AAA"
+temp2 = "BB"
+print(temp1)
+print(temp2)
+print(temp1 + temp2)  # Concatenation of str
+print(temp1, temp2)  # Tuple
+print(temp1 + "***" + temp2)  # Concatenation with separator
+print(temp1, "***", temp2) # Tuple with separator
+
+# Division operators
+a = 100
+print(a)
+print(a / 2)  # Division
+print(a / 2.0)  # Division with float
+print(a // 2)  # Floor division
+
+# Mod % -> remainder
+a = 10
+b = 5
+print(a / b)  # Division
+print(a // b)  # Floor division
+print('Remainder:', a % b)  # Remainder of division
