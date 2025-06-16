@@ -13,4 +13,4 @@ while (n < 6):
     total = total + n
     n = n + 1
     print(total)
-# print(total) # final total instead of looping total when at start of line
+print("Total:", total) # prints final total when at start of line
